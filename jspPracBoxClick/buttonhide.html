@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.0.min.js" ></script>
+    <title>Document</title>
+        <script type="text/javascript">
+            //숨기기 보이기 2가지 버튼 기능
+            // $(document).ready(function() {
+            //     $("#hide_btn").click(function(){
+            //         $("#panel").hide(500);
+            //                     });
+            // $("#show_btn").click(function(){
+            //     $("#panel").show(1000);
+            // });          
+
+            // }); 
+            $(document).ready(function() {
+        $("#button").click(function() {
+            $("#panel").toggle(1000);
+        });
+    });
+
+
+        </script>
+
+
+</head>
+<body>
+        
+
+        <div id="button" class="box" style="background:#365CA1; color:white; cursor: pointer;">
+            클릭으로 패널을 숨기거나 표시하기
+        </div>
+        <div id="panel" class="box" style="height:100px; line-height: 85px;">
+            패널 표시 | 한번 더 클릭시 패널 숨김
+        </div>
+        
+
+
+
+
+</body>
+</html>

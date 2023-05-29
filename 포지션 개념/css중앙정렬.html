@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+    body{
+        height: 100vh;
+        /* flex */
+        /* display: flex;   <- 부모요소에 줘야함
+        justify-content: center;/* <- 수평중앙 
+        align-items: center;<- 수직중앙  */
+
+
+        /* Grid */
+        /* display: grid;
+        justify-content: center;
+        align-items: center; */
+
+        /* placeItems */
+        /* display: grid;
+        place-items: center; */
+      
+    }
+ .element{
+    border: 5px solid black;
+    background-color: skyblue;
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    
+}
+ 
+ .element > span{
+
+    border: 5px solid red;
+
+  
+    float: right;
+    }
+    /* 2 */
+    /* margin: auto; */
+    /* 1 */
+    /* position: absolute; */
+    /* top: 50%; */
+    
+    /* transform: translatey(-50%); */
+
+
+
+</style>
+
+</head>
+<body>
+    <!-- css중앙정렬
+        자기 자신이 중앙으로 갈 경우
+        position,place-items,margin:auto
+
+        부모 요소가 자식 요소를 중앙으로 보낼 경우
+            flex,grid,
+        수평 중앙 정렬할 때 블록요소 vs 인라인(인라인블록)
+
+        블록요소는 자기 자신에 margin:auto 
+        인라인은 부모요소 또는 상위요소에 
+        text-align:center
+
+        자기 자신과 인접해 있는 요소와 수직 중앙을 맞출 경우
+        vertical-align : 값 ; transform : translatey 값
+    
+    -->
+        <div class="element">
+            <span>  This is content</span>  
+
+        </div>
+
+</body>
+</html>

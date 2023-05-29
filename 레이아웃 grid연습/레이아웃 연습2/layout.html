@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+        <style>
+       
+            .header{
+                background-color: blue;
+                height: 200px;
+                color: #fff;
+            }
+            .left{
+                background-color: orange;
+                color: #fff;
+                position: absolute;
+                width: 200px;
+                height: 500px            }
+            .content{
+                background-color: red;
+                color: #fff;
+                height: 500px;
+                margin-left: 200px;
+            }
+            .footer{
+                height: 200px;
+                background-color: green;
+                color: #fff;
+            }
+    </style>
+</head>
+<body>
+    <!-- 1.float 방식
+    sidemenu는 float : left 하고  float :right- -float 의 해제가 필요하다
+         2.position - 절대 ,상대위치
+         sidemenu는 position : absoulute하고 content는 position:relative한다.
+         3.position - 절대,마진
+         sidemenu는 position:absolute하고 content는 margin-left를 준다.
+         4.float+position 
+         sidemenu는 position : absolute하고 content는 float:right;float의 해제가 필요하다.
+        -->    
+        <div class="header">header</div>
+        <div class="left">left</div>
+        <div class="content">content</div>
+        <div class="footer">footer</div>
+
+
+</body>
+</html>

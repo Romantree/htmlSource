@@ -1,0 +1,22 @@
+*{ margin: 0;
+padding: 0;
+}
+.header,.footer{ height: 100px; background-color: gold;}
+
+.mainbanner{
+    min-height: 500px; background-color: bisque;
+}
+.container{ height: 440px; background-color: brown; padding: 20px;}
+.container >.centerbox {
+    width: 960px; margin:auto;
+}
+.centerbox>div{ display: inline-block;}
+.box1{
+    width: 307px; height: 400px; background-color: aquamarine;
+}
+.box1{
+    width: 307px; height: 400px; background-color: violet; margin: 0 20px;
+}
+.box1{
+    width: 307px; height: 400px; background-color: yellowgreen;
+}

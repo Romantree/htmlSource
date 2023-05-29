@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navi{
+    width: 500px; height: 70px; margin: 100px auto;
+    background-color: blueviolet; list-style: none;
+}
+#navi>li { 
+    float: left; width: 100px; height: 70px;
+    text-align: center; line-height: 70px;
+}
+/* 부모 요소 높이가0이면 자식요소 float 해도 안보여 height 값주면 보임 */
+#navi >li>a{
+    color: white; text-decoration: none;
+    display: block;
+    width: 100px;height: 70px;
+}
